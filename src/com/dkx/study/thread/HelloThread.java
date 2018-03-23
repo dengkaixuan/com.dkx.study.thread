@@ -7,14 +7,12 @@ package com.dkx.study.thread;
  */
 public class HelloThread extends Thread{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-//		(new HelloThread()).start();
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+////		(new HelloThread()).start();
+//	}
+//	
+	public void run(){
+		System.out.println(Thread.currentThread().getName() + "正在执行。。。");
 	}
-	
-	
-//	public void run() {  
-//        System.out.println("Hello from a thread!");  
-//    }	   
-
 }
